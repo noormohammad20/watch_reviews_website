@@ -1,0 +1,34 @@
+.watch-container {
+    display: flex;
+}
+
+.headline {
+    font-size: 70px;
+}
+
+.headline:hover {
+    color: gray;
+}
+
+.product-details {
+    font-size: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.watch-btn {
+    color: royalblue;
+    width: 120px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+.watch-btn:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.watch-img {
+    height: 90vh;
+}
