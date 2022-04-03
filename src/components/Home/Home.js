@@ -5,7 +5,7 @@ import Review from '../Review/Review'
 import './Home.css'
 const Home = () => {
     const [reviews] = useReview()
-
+    const reviewData = reviews.slice(0, 3)
     return (
 
         <section>
@@ -23,7 +23,7 @@ const Home = () => {
             <div className='reviews-container'>
 
                 {
-                    reviews.map(review => <Review key={review.id} singleReview={review}></Review>)
+                    reviewData.map(review => <Review key={review.id} singleReview={review}></Review>)
                 }
             </div>
             <Link to='/reviews'>

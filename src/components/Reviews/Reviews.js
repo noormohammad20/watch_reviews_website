@@ -9,6 +9,8 @@ const Reviews = () => {
                 reviews.map(review =>
                     <div className='review-container'>
                         <div>
+
+                            <p> key={review.id}</p>
                             <img className="review-img" src={review.picture} alt="" />
                         </div>
                         <div className="review-info">
