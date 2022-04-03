@@ -1,0 +1,9 @@
+.review-container {
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.review-img {
+    height: 100px;
+}
