@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import useReview from '../../hooks/useReview'
 import Review from '../Review/Review'
 import './Home.css'
@@ -25,6 +26,9 @@ const Home = () => {
                     reviews.map(review => <Review key={review.id} singleReview={review}></Review>)
                 }
             </div>
+            <Link to='/reviews'>
+                <button className='review-all-btn'>See All Reviews</button>
+            </Link>
         </section>
     )
 }
