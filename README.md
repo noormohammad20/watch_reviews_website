@@ -7,8 +7,7 @@ https://watch-reviews.netlify.app/
 
 
 
-## Appendix
-
+## In This Website
 - in this website for routing, i am using react router dom. 
 - and for dashboard using rechart .
 - and create six json data for reviews.
